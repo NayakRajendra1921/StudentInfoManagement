@@ -17,6 +17,7 @@ public class App
 {
     public static void main( String[] args )
     {
+       //StudentInfo Management Application
        
     	SessionFactory factory=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
     	
